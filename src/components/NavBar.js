@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 export default function NavBar() {
     return (
-        <Navbar className="nav-color" collapseOnSelect expand="sm">
+        <Navbar className="nav-color" collapseOnSelect expand="sm" variant="dark">
             <Container>
                 <Navbar.Brand exact href="/">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -12,8 +12,8 @@ export default function NavBar() {
                     <Nav className="mr-auto">
 
                         <Nav.Link exact href="/">Home</Nav.Link>
-                        <Nav.Link href="#features">About</Nav.Link>
-                        <Nav.Link href="#pricing">Projects</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
             
                     </Nav>
                     

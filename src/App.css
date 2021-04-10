@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.sriracha-font{
+  font-family: 'Sriracha', cursive;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -34,8 +39,21 @@
 
 .wrapper-info {
   display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper-info h1 {
+  color: red;
+  text-transform: uppercase;
+
 }
 
 ul {
@@ -44,7 +62,9 @@ ul {
 }
 /* Custom Nav */
 .nav-color{
-  background-color: forestgreen;
-  color: black;
+  background-color: navy;
 }
 
+.center-horizon {
+  margin: auto;
+}
