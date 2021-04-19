@@ -1,6 +1,5 @@
 //Components
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 //Pages
 import Home from './pages/Home';
 import About from './pages/About';
@@ -24,7 +23,7 @@ function App() {
           
         </Switch>
       
-        <Footer />
+        
       </div>
     </Router>
   );

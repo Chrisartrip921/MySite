@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.text-center {
+  width:30%;
+  margin-left: 35%;
+}
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 .sriracha-font{
   font-family: 'Sriracha', cursive;
@@ -34,7 +37,7 @@
   background: url(./photos/port-home-page.webp) no-repeat;
   background-size: cover;
   background-position: center;
-  height:90vh;
+  height:94vh;
 }
 
 .wrapper-info {
@@ -51,7 +54,7 @@
 }
 
 .wrapper-info h1 {
-  color: red;
+  color: lightsalmon;
   text-transform: uppercase;
 
 }
@@ -62,7 +65,7 @@ ul {
 }
 /* Custom Nav */
 .nav-color{
-  background-color: navy;
+  background-color: lightsalmon;
 }
 
 .center-horizon {

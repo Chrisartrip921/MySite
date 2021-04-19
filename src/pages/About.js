@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 import { useSpring, animated, config } from 'react-spring';
 import { Container, Row, Col } from 'react-bootstrap';
+
 import '../index.css';
 export default function About() {
-    //const [isShowing, setIsShowing] = useState(false);
+    const [isShowing, setIsShowing] = useState(false);
 
     const spring1 = useSpring({
         from: { opacity: 0 },
         to: { opacity: 1 },
         delay: 300,
-        config: config.slow
+        config: config.slow,
+        
     });
 
     return (
-        <Container className="sriracha-font">
+        <Container>
             <Row >
                 <Col className="mt-5">
                     <animated.div style={spring1}>
@@ -37,8 +39,11 @@ export default function About() {
                         </div>
                     </animated.div>
                 </Col>
+                <linkedinLogo/>
             </Row>
+            
         </Container>
+        
     );
 }
 
