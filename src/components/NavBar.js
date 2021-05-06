@@ -11,9 +11,9 @@ export default function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto">
 
-                        <Nav.Link exact className="mr-5" href="/">Home</Nav.Link>
-                        <Nav.Link className="mr-5" href="/about">About</Nav.Link>
-                        <Nav.Link className="mr-5"href="/projects">Projects</Nav.Link>
+                        <Nav.Link exact  href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
 
                     </Nav>
                     <Nav>
