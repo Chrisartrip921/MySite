@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../index.css";
+import { SocialIcon } from 'react-social-icons';
 
 export default function Projects() {
   const [isFindGroupVisible, setIsFindGroupVisible] = useState(false);
@@ -28,7 +29,7 @@ export default function Projects() {
         <Row>
           <Col>
             <div className="mt-4 mb-3">
-              <b>Project Name: FindGroup</b>
+            <span className="light-blue bold">Project Name: FindGroup</span>
             </div>
             <button className="button mb-3" onClick={findGroupButton}>
               Reveal FindGroup!
@@ -36,7 +37,10 @@ export default function Projects() {
             <div>
               <div>
                 {isFindGroupVisible ? (
+                  
                   <div className="iframe-wrapper">
+                    
+                  
                     <iframe
                       title="Project Video"
                       src="https://www.youtube.com/embed/uzNrGFSndEs"
@@ -45,18 +49,21 @@ export default function Projects() {
                       mozallowfullscreen="true"
                       frameBorder="0"
                     />
+                    
                   </div>
                 ) : (
                   <div></div>
                 )}
               </div>
+              <p className="mt-2"><span className="light-blue bold">GitHub Repo</span></p>
+              <div className="mt-2"><SocialIcon url="https://github.com/samhu911/Capstone-project"/></div>
             </div>
           </Col>
         </Row>
         <Row>
           <Col>
             <div className="mt-4 mb-3">
-              <b>Project Name: Giphy-App</b>
+              <span className="light-blue bold">Project Name: Giphy-App</span>
             </div>
             <button className="button mb-3" onClick={giphyButton}>
               Reveal Giphy-App!

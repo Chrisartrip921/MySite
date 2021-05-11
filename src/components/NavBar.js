@@ -5,13 +5,13 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 export default function NavBar() {
     return (
-        <Navbar className="nav-color" collapseOnSelect expand="sm" variant="light">
+        <Navbar className="nav-color" collapseOnSelect expand="sm" variant="dark">
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto">
 
-                        <Nav.Link exact  href="/">Home</Nav.Link>
+                        <Nav.Link exact href="/">Home</Nav.Link>
                         <Nav.Link href="/about">About</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>
 

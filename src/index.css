@@ -22,9 +22,17 @@
   height: 100%;
 }
 
+.light-blue {
+  color: rgb(122,217,255);
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .button
 {
-    background-color: lightsalmon;
+    background-color: rgb(255, 200, 178);
     border: none;
     border-radius: 10px;
     color: white;
